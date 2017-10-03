@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>Calculadora Mac</title>
+</head>
+
+<body>
+    <h1><p><b>Calculadora Mac(0.6)</b></p></h1>
+    <div class="corpo">
+        <table class="calculadora">
+            <tr class="panel">
+                <td colspan="4"><input class="painel" type="text" placeholder="0" readonly size="10"></td>
+            </tr>
+            <tr>
+                <td colspan="2"> <form> <input type="submit" value="CE" class="ce button"></form></td>
+                <td><button class="operacao button" value="/">/</button></td>
+                <td><button class="operacao button" value="*">x</button></td>
+            </tr>
+            <tr>
+                <td><button class="numeral button" value="1">1</button> </td>
+                <td><button class="numeral button" value="2">2</button></td>
+                <td><button class="numeral button" value="3">3</button></td>
+                <td><button class="operacao button" value="+">+</button></td>
+            </tr>
+            <tr>
+                <td><button class="numeral button" value="4">4</button></td>
+                <td><button class="numeral button" value="5">5</button></td>
+                <td><button class="numeral button" value="6">6</button></td>
+                <td><button class="operacao button" value="-">-</button></td>
+            </tr>
+            <tr>
+                <td><button class="numeral button" value="7">7</button></td>
+                <td><button class="numeral button" value="8">8</button></td>
+                <td><button class="numeral button" value="9">9</button></td>
+                <td rowspan="2"><button class="result button" value="=">=</button></td>
+            </tr>
+            <tr>
+                <td colspan="3"><button class="numeral button" value="0">0</button></td>
+            </tr>
+            
+        </table>
+    </div>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
